@@ -2,6 +2,12 @@
 aside{
     margin: 100px auto;
 }
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
 h3{
     font-weight: 100;
     line-height: 1px;
@@ -12,4 +18,61 @@ h2{
     font-family: poppinsbold;
     line-height: 1px;
     font-size: 60px;
+}
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+.imgLinks{
+    border: 3px solid #00a8aa;
+    border-radius: 20px;
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.imgLinks a {
+    padding: 10px;
+}
+.sideImg{
+    width: 550px;
+}
+.paragraphs{
+    color: #1d1d1d;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.paragraphs h1{
+    font-family: poppinsbold;
+    font-size: 40px;
+}
+.paragraphs section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+.paragraphs p{
+    line-height: 20px;
+    max-width: 800px;
+    font-family: poppinslight;}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }

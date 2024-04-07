@@ -7,25 +7,64 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/base.css">
+    <script defer src="assets/js/app.js"></script>
 </head>
-<body>
+<body onscroll="changeBackground()">
     <header>
         <div class="title">
             <h1>All</h1>
             <h1>Maciente</h1>
         </div>
         <ul>
-            <a href="#"><li>About</li></a>
+            <a class="now" href="./index.html"><li>Home</li></a>
             <a href="./github.html"><li>My Projects on Git</li></a>
         </ul>
     </header>
     <main>
-        <aside>
-            <h3>Hii,I'm Allan</h3>
-            <h2>Backend</h2>
-            <h2>Developer</h2>
-        </aside>
+        <section>
+            <aside>
+                <h3>Hii,I'm Allan</h3>
+                <h2>Backend</h2>
+                <h2>Developer</h2>
+                <div class="imgLinks">
+                    <a href="https://github.com/AllMaciente" target="_blank"><img src="assets/imgs/portifolio_Github.svg"  alt="Github logo" width="50" height="50"></a>
+                    <a href="#" target="_blank"><img src="assets/imgs/portifolio_Curiculo.svg"  alt="Github logo" width="50" height="50"></a>
+                    <a href="#" target="_blank"><img src="assets/imgs/portifolio_Empty.svg"  alt="Github logo" width="50" height="50"></a>
+                </div>   
+            </aside>
+            <article>
+                <img class="sideImg" src="assets/imgs/deku.png" alt="Deku">
+            </article>
+        </section>
+        <section class="paragraphs">
+            <div>
+                <section class="hidden"><div>
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi bibendum neque egestas congue. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Augue neque gravida in fermentum et sollicitudin ac orci.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non consectetur a.</p>
+                </div></section>
+                <section class="hidden"><div>
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi bibendum neque egestas congue. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Augue neque gravida in fermentum et sollicitudin ac orci.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi bibendum neque egestas congue. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Augue neque gravida in fermentum et sollicitudin ac orci.</p>
+                </div></section>
+                <section class="hidden"><div>
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non consectetur a.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non consectetur a.</p>
+                </div></section>
+            </div>
+        </section>
     </main>
-    
+<script>
+        function changeBackground() {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > 500) {
+                document.body.style.backgroundColor = "#d1d1d1";
+            }else {
+                document.body.style.backgroundColor = "#1d1d1d";
+            }
+        }
+    </script>
 </body>
 </html>

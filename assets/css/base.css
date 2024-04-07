@@ -1,3 +1,6 @@
+*{
+    transition: 1s all;
+}
 body{
     background-color: #1d1d1d;
     color: white;
@@ -34,5 +37,18 @@ header a{
 a:hover{
     color: #00a8aa;
     transition: 0.3s all;
+}
+a.now:hover{
+    color: #00a8aa;
+    background: white;
+    border-color: whites;
+    transition: 0.3s all;
+}
+.now{
+    border: 3px solid #00a8aa;
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 20px;
+    background: #00a8aa;
 }
 
