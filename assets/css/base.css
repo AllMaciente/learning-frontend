@@ -1,0 +1,33 @@
+body{
+    background-color: #1d1d1d;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+#title{
+    flex-direction: row;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+header a{
+    color: white;
+}
+
+a:hover{
+    color: #00a8aa;
+    transition: 0.3s all;
+}
+

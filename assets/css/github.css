@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    margin: 20px auto;
+}
+a{
+    text-decoration: none;
+    color: #005052;
+}
+.github{
+    margin: 25px;
+}
+.github .project{
+    border: 2px solid #00a8aa;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 25px;
+    margin: 20px;
+}
+.github .project div{
+    display: flex;
+    justify-content: space-between;
+}
+.github .project div .dateCreate{
+    color: #acacac;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+.github .project div .title{
+    font-family: poppinsbold;
+    color: #d1d1d1;
+}
+.github .project .language .circle{
+    background-color: #00a8aa;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #00a8aa;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="git.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.44631734"
+     inkscape:cx="619.51435"
+     inkscape:cy="603.83045"
+     inkscape:window-width="1366"
+     inkscape:window-height="699"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="94.523551"
+       y="505.95481"
+       width="451.7438"
+       height="245.81374"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#eeeeee;stroke-width:13.0464;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:29.4;paint-order:stroke fill markers"
+       id="rect1"
+       width="210"
+       height="297"
+       x="0"
+       y="0"
+       ry="9.7079746e-06" />
+    <path
+       style="fill:#31363f;fill-opacity:1;stroke-width:4.23333;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:29.4;paint-order:stroke fill markers"
+       d="M 210,148.5 0,0 v 297 h 210 z"
+       id="path1"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#272b32;fill-opacity:1;stroke-width:4.23333;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:29.4;paint-order:stroke fill markers"
+       d="M 210,205.65036 0,57.15003 V 297 h 210 z"
+       id="path2"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="font-weight:800;font-size:192px;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Ultra-Bold';white-space:pre;shape-inside:url(#rect2);display:inline;fill:#eeeeee;fill-opacity:1;stroke-width:16;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:29.4;paint-order:stroke fill markers" />
+  </g>
+</svg>
