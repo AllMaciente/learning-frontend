@@ -18,7 +18,7 @@ function getApiGitHub(){
                         <span class="dateCreate">${ Intl.DateTimeFormat('pt-BR').format(new Date(item.created_at))}</span>
                     </div>
                     <div>
-                        <a href="${ item.html_url}" target="_blank">${ item.html_url}</a>
+                        <a href="${ item.html_url}" target="_blank">Url: ${ item.full_name}</a>
                         <span class="language"><span class="circle"></span>${ item.language}</span>
                     </div>
                 </div>
