@@ -13,10 +13,15 @@ header{
     justify-content: space-between;
 }
 
-#title{
+div.title{
     flex-direction: row;
     line-height: 10px;
 }
+/* h1.title{
+    flex-direction: row;
+    line-height: 10px;
+    text-align: le-ft;
+} */
 li{
     display: inline-block;
     margin: 20px;
