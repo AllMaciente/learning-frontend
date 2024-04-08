@@ -37,6 +37,13 @@ h2{
 }
 .sideImg{
     width: 550px;
+    height: 550px;
+    opacity: 1;
+}
+.sideImgMobile{
+    opacity: 0;
+    width: 1px;
+    height: 1px;
 }
 .paragraphs{
     color: #2E8182;
@@ -65,14 +72,31 @@ h2{
     transform: translateX(-100%);
     transition: all 1s;
 } 
-@media(prefers-reduced-motion){
-    .hidden{
-        transition: none;
-    }
-}
 
 .show{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+@media (orientation= portrait){
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 15px;
+    }
+    article{
+        width: 50%;
+        height: 50%;
+    }
+    .sideImg{
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+    }
+    .sideImgMobile{
+        opacity: 1;
+        width: 300px;
+        height: 300px;
+    }
 }

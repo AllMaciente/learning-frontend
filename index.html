@@ -8,8 +8,28 @@
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <script defer src="assets/js/app.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            var paragraphsSection = document.querySelector('.paragraphs');
+
+            // Criar um novo IntersectionObserver com uma margem de 50 pixels
+            var observer = new IntersectionObserver(function(entries) {
+                // entries é uma lista de objetos que representam os elementos observados
+                entries.forEach(entry => {
+                    if (entry.intersectionRatio > 0) { // Verificar se a seção está visível na tela
+                        document.body.style.backgroundColor = "#d1d1d1";
+                    } else {
+                        document.body.style.backgroundColor = "#1d1d1d";
+                    }
+                });
+            }, { rootMargin: '0px' }); // Não é mais necessário definir uma margem
+
+            // Observar a seção "paragraphs"
+            observer.observe(paragraphsSection);
+        });
+    </script>
 </head>
-<body onscroll="changeBackground()">
+<body>
     <header>
         <div class="title">
             <h1>All</h1>
@@ -34,14 +54,14 @@
             </aside>
             <article>
                 <img class="sideImg" src="assets/imgs/deku.png" alt="Deku">
+                <img class="sideImgMobile" src="assets/imgs/deku-mobile.png" alt="Deku">
             </article>
         </section>
         <section class="paragraphs">
             <div>
                 <section class="hidden"><div>
-                    <h1>Lorem Ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi bibendum neque egestas congue. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Augue neque gravida in fermentum et sollicitudin ac orci.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non consectetur a.</p>
+                    <h1>About me </h1>
+                    <p>Olá! Sou Allan, um entusiasta da tecnologia com paixão pela programação e desenvolvimento de software. Estou atualmente imerso no Programa Jovem Programador no Senac, onde tenho a oportunidade de aprofundar meu conhecimento no vasto mundo da ciência da computação e acompanhar as últimas tendências em tecnologia.</p>
                 </div></section>
                 <section class="hidden"><div>
                     <h1>Lorem Ipsum</h1>
@@ -56,15 +76,6 @@
             </div>
         </section>
     </main>
-<script>
-        function changeBackground() {
-            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if (scrollTop > 500) {
-                document.body.style.backgroundColor = "#d1d1d1";
-            }else {
-                document.body.style.backgroundColor = "#1d1d1d";
-            }
-        }
-    </script>
+
 </body>
 </html>

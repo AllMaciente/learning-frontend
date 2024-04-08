@@ -41,7 +41,7 @@ a:hover{
 a.now:hover{
     color: #00a8aa;
     background: white;
-    border-color: whites;
+    border-color: white;
     transition: 0.3s all;
 }
 .now{
@@ -52,3 +52,24 @@ a.now:hover{
     background: #00a8aa;
 }
 
+@media (orientation= portrait){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .now{
+        border: 1px solid #00a8aa;
+        margin: 0 auto;
+        padding: 2px;
+        border-radius: 20px;
+        background: none;
+    }
+}
