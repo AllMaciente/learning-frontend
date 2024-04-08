@@ -17,7 +17,7 @@ h3{
 h2{
     font-family: poppinsbold;
     line-height: 1px;
-    font-size: 60px;
+    font-size: 63%;
 }
 .break{
     flex-basis: 100%;
@@ -36,7 +36,7 @@ h2{
     padding: 10px;
 }
 .sideImg{
-    width: 550px;
+    width: 150%;
     height: 550px;
     opacity: 1;
 }
