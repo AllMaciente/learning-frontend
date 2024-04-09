@@ -1,23 +1,23 @@
 
 aside{
-    margin: 100px auto;
+    margin: 10% auto;
 }
 section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 1%;
 }
 h3{
     font-weight: 100;
     line-height: 1px;
-    font-size: 25px;
+    font-size: 200%;
     color: #00a8aa;
 }
 h2{
     font-family: poppinsbold;
     line-height: 1px;
-    font-size: 60px;
+    font-size: 450%;
 }
 .break{
     flex-basis: 100%;
@@ -26,24 +26,18 @@ h2{
 .imgLinks{
     border: 3px solid #00a8aa;
     border-radius: 20px;
-    width: 325px;
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-between;
 }
 .imgLinks a {
-    padding: 10px;
+    padding: 5%;
 }
 .sideImg{
-    width: 550px;
-    height: 550px;
-    opacity: 1;
-}
-.sideImgMobile{
-    opacity: 0;
-    width: 1px;
-    height: 1px;
+    width: 600px;
+    height: 600px;
 }
 .paragraphs{
     color: #2E8182;
@@ -66,12 +60,30 @@ h2{
     max-width: 800px;
     font-family: poppinslight;}
 
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills img{
+    height: 75px;
+    padding: 15px;
+}
+
+.skills:nth-child(2){ transition-delay: 200ms;}
+.skills:nth-child(3){ transition-delay: 400ms;}
+.skills:nth-child(4){ transition-delay: 600ms;}
+.skills:nth-child(5){ transition-delay: 800ms;}
+.skills:nth-child(6){ transition-delay: 1000ms;}
+
 .hidden {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
     transition: all 1s;
 } 
+
 
 .show{
     opacity: 1;
@@ -88,15 +100,5 @@ h2{
     article{
         width: 50%;
         height: 50%;
-    }
-    .sideImg{
-        width: 1px;
-        height: 1px;
-        opacity: 0;
-    }
-    .sideImgMobile{
-        opacity: 1;
-        width: 300px;
-        height: 300px;
     }
 }
