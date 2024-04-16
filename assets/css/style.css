@@ -8,16 +8,20 @@ section{
     justify-content: space-between;
     margin-top: 1%;
 }
+#start{
+    padding-bottom: 3%;
+    margin-bottom:  5%;
+}
 h3{
     font-weight: 100;
     line-height: 1px;
-    font-size: 200%;
+    font-size: 300%;
     color: #00a8aa;
 }
 h2{
     font-family: poppinsbold;
     line-height: 1px;
-    font-size: 450%;
+    font-size: 650%;
 }
 .break{
     flex-basis: 100%;
@@ -35,9 +39,11 @@ h2{
 .imgLinks a {
     padding: 5%;
 }
+.imgLinks img{
+    height: 40px;
+}
 .sideImg{
-    width: 600px;
-    height: 600px;
+    height: 125%;
 }
 .paragraphs{
     color: #2E8182;
@@ -49,15 +55,21 @@ h2{
     font-family: poppinsbold;
     font-size: 40px;
 }
-.paragraphs section{
+.paragraphs section{    
     display: grid;
     place-items: center;
     align-content: center;
     min-height: 100vh;
 }
+#pStart{
+    margin-top: 100px;
+    padding-top: 200px;
+}
 .paragraphs p{
-    line-height: 20px;
-    max-width: 800px;
+    line-height: 100%;
+    max-width: 1080px;
+    min-width: 800px;
+    font-size: 200%;
     font-family: poppinslight;}
 
 .skills{
