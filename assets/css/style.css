@@ -37,7 +37,7 @@ h2{
     justify-content:space-between;
 }
 .imgLinks a {
-    padding: 5%;
+    padding: 3%;
 }
 .imgLinks img{
     height: 40px;
@@ -101,6 +101,26 @@ h2{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+@media(max-width: 1400px){
+    .sideImg{
+        height: 90%;
+    }
+    h3{
+        font-weight: 100;
+        line-height: 1px;
+        font-size: 200%;
+        color: #00a8aa;
+    }
+    h2{
+        font-family: poppinsbold;
+        line-height: 1px;
+        font-size: 450%;
+    }
+    #start{
+        padding-bottom: 1%;
+        margin-bottom:  1%;
+    }
 }
 @media (orientation= portrait){
     section{

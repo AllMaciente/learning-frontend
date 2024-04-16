@@ -11,16 +11,10 @@ body{
     padding: 15px;
 }
 header{
-    position: fixed;
-    background-color: #1d1d1d;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 999px;
-    box-shadow: 0px 0px 6px 0px rgb(0, , blue);
+
     display: flex;
     flex-direction: row;
-    align-items: ;
+    /* align-items: ; */
     justify-content: space-between;
 }
 
@@ -62,6 +56,7 @@ a.now:hover{
 #start{
     height: 700px;
 }
+
 @media (orientation= portrait){
     header{
         display: flex;
