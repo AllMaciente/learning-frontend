@@ -1,0 +1,87 @@
+input[type=radio]{
+    all: unset;
+    background-color: #d1d1d1;
+    border: 1px solid #d1d1d1;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+input[type=radio]:checked {
+    border-color: #2E8182;
+    background-color: #2E8182;
+    width: 15px;
+    height: 15px;
+}
+input[type=checkbox]{
+    all: unset;
+    background-color: #d1d1d1;
+    border: 1px solid #d1d1d1;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+input[type=checkbox]:checked {
+    border-color: #2E8182;
+    background-color: #2E8182;
+    width: 15px;
+    height: 15px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    border-radius: 20px;
+    background-color: #2E8182;
+    border: none;
+    color: #d1d1d1;
+    font-weight: 900;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+  }
+input[type=text] {
+    border: none;
+    color: #1d1d1d;
+    background-color: #d1d1d1;
+    border-bottom: 2px solid #2E8182;
+  }
+input[type=email] {
+    border: none;
+    color: #1d1d1d;
+    background-color: #d1d1d1;
+    border-bottom: 2px solid #2E8182;
+  }
+input[type=password] {
+    border: none;
+    color: #1d1d1d;
+    background-color: #d1d1d1;
+    border-bottom: 2px solid #2E8182;
+  }
+  
+  /* CSS */
+  .button-34 {
+    background: #00a8aa;
+    border-radius: 999px;
+    box-shadow: #00a8aa 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+/* input[type=text]:focus {
+    background-color: #252525;
+  } */

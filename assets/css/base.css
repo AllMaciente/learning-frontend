@@ -56,6 +56,11 @@ a.now:hover{
 #start{
     height: 700px;
 }
+footer{
+text-align: center;
+font-family: poppinsbold;
+color: #1d1d1d;   
+}
 
 @media (orientation= portrait){
     header{
@@ -77,4 +82,5 @@ a.now:hover{
         border-radius: 20px;
         background: none;
     }
+    
 }

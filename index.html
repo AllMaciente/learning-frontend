@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Allan">
+    <meta name="keywords" content="portfolio,dev,curriculo,allan,backend">
     <title>AllMaciente</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/forms.css">
     <script defer src="assets/js/app.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', (event) => {
             var paragraphsSection = document.querySelector('.paragraphs');
 
             // Criar um novo IntersectionObserver com uma margem de 50 pixels
-            var observer = new IntersectionObserver(function(entries) {
+            var observer = new IntersectionObserver(function (entries) {
                 // entries é uma lista de objetos que representam os elementos observados
                 entries.forEach(entry => {
                     if (entry.intersectionRatio > 0) { // Verificar se a seção está visível na tela
@@ -29,6 +33,7 @@
         });
     </script>
 </head>
+
 <body>
     <header>
         <div class="title">
@@ -36,22 +41,34 @@
             <h1>Maciente</h1>
         </div>
         <ul>
-            <a class="now" href="./index.html"><li>Home</li></a>
-            <a href="#pStart"><li>About me</li></a>
-            <a href="./github.html"><li>My Projects on Git</li></a>
+            <a class="now" href="./index.html">
+                <li>Home</li>
+            </a>
+            <a href="#pStart">
+                <li>About me</li>
+            </a>
+            <a href="#pSkills">
+                <li>Skills</li>
+            </a>
+            <a href="./github.html">
+                <li>My Projects on Git</li>
+            </a>
         </ul>
     </header>
     <main>
         <section id="start">
             <aside>
-                <h3>Hii,I'm Allan</h3>
+                <h3>Hii, I'm Allan</h3>
                 <h2>Backend</h2>
                 <h2>Developer</h2>
                 <div class="imgLinks">
-                    <a href="https://github.com/AllMaciente" target="_blank"><img src="assets/imgs/portifolio_Github.svg"  alt="Github logo" width="50" height="50"></a>
-                    <a href="#" target="_blank"><img src="assets/imgs/portifolio_Curiculo.svg"  alt="Github logo" width="50" height="50"></a>
-                    <a href="#" target="_blank"><img src="assets/imgs/portifolio_Empty.svg"  alt="Github logo" width="50" height="50"></a>
-                </div>   
+                    <a href="https://github.com/AllMaciente" target="_blank"><img
+                            src="assets/imgs/portifolio_Github.svg" alt="Github logo" width="50" height="50"></a>
+                    <a href="#" target="_blank"><img src="assets/imgs/portifolio_Curiculo.svg" alt="Github logo"
+                            width="50" height="50"></a>
+                    <a href="https://br.linkedin.com/in/allan-m-0734162a9" target="_blank"><img
+                            src="assets/imgs/portifolio_Linkedin.svg" alt="Github logo" width="50" height="50"></a>
+                </div>
             </aside>
             <article>
                 <img class="sideImg" src="assets/imgs/deku.png" alt="Deku">
@@ -59,33 +76,111 @@
         </section>
         <section class="paragraphs">
             <div>
-                <section id="pStart" class="hidden"><div>
-                    <h1>About me </h1>
-                    <p>Olá! Sou Allan, um entusiasta da tecnologia com paixão pela programação e desenvolvimento de software. Estou atualmente imerso no Programa Jovem Programador no Senac, onde tenho a oportunidade de aprofundar meu conhecimento no vasto mundo da programação e acompanhar as últimas tendências em tecnologia.</p>
-                </div></section>
-                <section class="hidden"><div>
-                    <h1>Skills I'm learning</h1>
-                    <div class="skills">
-                        <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" alt="cplusplus logo"  />
-                        <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" alt="csharp logo"  /> -->
-                        <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="fastapi logo"  /> -->
-                        <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github logo"  />
-                        <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="git logo"  />
-                        <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="html5 logo"  />
-                        <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo"  /> -->
-                        <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql logo"  />
-                        <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="nodejs logo"  /> -->
-                        <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python logo"  />
-                      </div>
-                </div></section>
-                <section class="hidden"><div>
-                    <h1>Lorem Ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non consectetur a.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non consectetur a.</p>
-                </div></section>
+                <section id="pStart" class="hidden">
+                    <div>
+                        <h1>About me </h1>
+                        <p>Olá! Sou Allan, um entusiasta da tecnologia com paixão pela programação e desenvolvimento de
+                            software. Estou atualmente imerso no Programa Jovem Programador no Senac, onde tenho a
+                            oportunidade de aprofundar meu conhecimento no vasto mundo da programação e acompanhar as
+                            últimas tendências em tecnologia.</p>
+                    </div>
+                </section>
+                <section id="pSkills" class="hidden">
+                    <div>
+                        <h1>Skills I'm learning</h1>
+                        <div class="skills">
+                            <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" alt="cplusplus logo"  /> -->
+                            <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" alt="csharp logo"  /> -->
+                            <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="fastapi logo"  /> -->
+                            <img class="skills hidden"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="github logo" />
+                            <img class="skills hidden"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
+                                alt="git logo" />
+                            <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="html5 logo"  /> -->
+                            <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo"  /> -->
+                            <img class="skills hidden"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                alt="mysql logo" />
+                            <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="nodejs logo"  /> -->
+                            <!-- <img class="skills hidden" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react logo"  /> -->
+                            <img class="skills hidden"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="python logo" />
+                        </div>
+                    </div>
+                </section>
+                <section class="hidden">
+                    <div>
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non
+                            consectetur a.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque in dictum non
+                            consectetur a.</p>
+                    </div>
+                </section>
+                <h1>tests do curso</h1>
+                <section class="hidden">
+                    <div>
+                        <h1>formulario</h1>
+                        <form>
+                            <div>
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+                            </div>
+                            <div>
+                                <label for="email">email:</label>
+                                <input type="email" name="email" id="email" placeholder="Email" required>
+                            </div>
+                            <div>
+                                <label for="senha">Senha:</label>
+                                <input type="password" name="senha" id="senha" placeholder="*********" required>
+                            </div>
+                                <button type="submit"class="button-34" role="button">Salvar</button>
+                                <button type="reset"class="button-34" role="button">Limpar</button>
+                        </form>
+                    </div>
+                </section>
+                <section class="hidden">
+                    <div>
+                        <h3>lista nao ordenada</h3>
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                            <li>item 4</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>lista ordenada</h3>
+                        <ol>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                            <li>item 4</li>
+                        </ol>
+                    </div>
+                </section>
+                <section class="hidden">
+                    <div>
+                        <h3>Foto</h3>
+                        <img src="https://github.com/allmaciente.png" alt="">
+                    </div>
+                    <div>
+                        <h3>video</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6UOz2ulRnQg?si=rsanJXtgBJltzUTB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xUXwYRMIqls?si=7kTebway-2mhQlKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </section>
             </div>
         </section>
     </main>
-
+    <footer>
+        <p> &copy; 2024 - Direitos reservados a Allan </p>
+    </footer>
 </body>
+
 </html>
