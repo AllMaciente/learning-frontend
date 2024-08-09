@@ -28,13 +28,14 @@ h2{
     height: 0;
 }
 .imgLinks{
+    padding: 0, 20px;
     border: 3px solid #00a8aa;
     border-radius: 20px;
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 .imgLinks a {
     padding: 3%;
@@ -102,6 +103,14 @@ h2{
     filter: blur(0);
     transform: translateX(0);
 }
+
+.Ex h3{
+    color: #2E8182;
+    font: poppinsblack;
+    font-size: 250%;
+}
+
+
 @media(max-width: 1400px){
     .sideImg{
         height: 90%;
