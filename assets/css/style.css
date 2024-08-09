@@ -103,6 +103,14 @@ h2{
     filter: blur(0);
     transform: translateX(0);
 }
+
+.Ex h3{
+    color: #2E8182;
+    font: poppinsblack;
+    font-size: 250%;
+}
+
+
 @media(max-width: 1400px){
     .sideImg{
         height: 90%;
