@@ -110,7 +110,18 @@ h2{
     font-size: 250%;
 }
 
+.container a {
+    border-radius: 50px;
+    background-color: #00a8aa;
+    color: #fff;
+    text-decoration: none;
+    /* top right bottom left */
+    padding: 10px 20px;
 
+}
+.container a:hover{
+    background-color: #1d1d1d;
+}
 @media(max-width: 1400px){
     .sideImg{
         height: 90%;
@@ -143,3 +154,5 @@ h2{
         height: 50%;
     }
 }
+
+/* cursor */
