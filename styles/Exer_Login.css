@@ -1,0 +1,85 @@
+body{
+    font-family: 'Poppins';
+    height: 100vh; /* Garante que o corpo tenha 100% da altura da viewport */
+    margin: 0; /* Remove margens padrão */
+    background: linear-gradient(135deg, #4987d0, #7a50b2);
+    background-repeat: no-repeat; /* Evita a repetição do gradiente */
+    background-attachment: fixed; /* Mantém o gradiente fixo, mesmo se a página for rolada */
+    background-size: cover; /* Faz o gradiente cobrir toda a área da tela */
+    
+}
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    height: 90vh;
+    border-radius: 15px;
+    background: #fff;
+}
+.login h1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+form input{
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: none;
+    border-bottom: 3px solid #929292;
+    margin-bottom: 8%;
+}
+form input::placeholder{
+    font-size: 150%;
+    margin-left: 15%;
+    padding-bottom: 15%;
+    color: #929292;
+    font-size: 125%;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+button{
+    background: linear-gradient(90deg, #4987d0, #7a50b2);
+    color: white; 
+    border: none; 
+    padding: 20px 20px; 
+    font-size: 20px;
+    cursor: pointer; 
+    text-align: center; 
+}
+
+.links{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Forgot,.Dont-account {
+    display: flex;
+    align-items: center; 
+    gap: 5px; 
+}
+
+.Forgot p, .Dont-account p {
+    margin: 0;
+    color: rgb(74, 74, 74);
+}
+.Forgot a,.Dont-account a{
+    color: #316bae;
+    text-decoration: none;
+    margin: 0;
+}
