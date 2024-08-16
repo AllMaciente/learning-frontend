@@ -24,9 +24,9 @@ section{
     background: #fff;
 }
 .login h1{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    font-size: 50px;
+    padding-top: 7vh;
+    padding-bottom:6vh;
+    font-size: 5vh;
 }
 form{
     display: flex;
