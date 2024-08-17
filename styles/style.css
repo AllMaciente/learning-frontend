@@ -97,3 +97,6 @@ section h3{
     transition: all 1s;
     background-color: #1d1d1d;
 }
+.last{
+    margin-bottom: 80px;
+    }

@@ -1,4 +1,4 @@
-// Exemplo de get Element para mudar a cor
+/*// Exemplo de get Element para mudar a cor
 var elemento = document.getElementById("cabecalho");
 elemento.style.backgroundColor = 'red';
 
@@ -20,3 +20,11 @@ btnExemplo.addEventListener('click', () => {
 document.addEventListener('keydown',(e) => {
     console.log(event.key);
 });
+*/
+
+function addTest(){
+    var header = document.getElementById('cabecalho');
+    var h1 = document.createElement('h1');
+    h1.textContent = 'Test';
+    header.append(h1);
+}
