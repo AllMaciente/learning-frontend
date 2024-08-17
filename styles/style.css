@@ -52,6 +52,15 @@ section h1{
     font-weight:900;
     font-size:30px;
 }
+section h3{
+    border-bottom: 2px solid #2E8182;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #2E8182; 
+    font-weight:900;
+}
 
 .hidden {
     opacity: 0;
