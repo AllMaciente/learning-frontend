@@ -61,20 +61,6 @@ section h3{
     color: #2E8182; 
     font-weight:900;
 }
-
-.hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s;
-} 
-
-
-.show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
 .buttons {
      display: flex;
      flex-direction: column;
