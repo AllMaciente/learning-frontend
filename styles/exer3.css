@@ -1,5 +1,5 @@
+*{font-family: 'Poppins';}
 body, html {
-    font-family: 'Poppins';
     margin: 0;
     padding: 0;
     height: 100%;
@@ -14,6 +14,10 @@ main {
     flex: 7;
     height: 100%;
     background-color: #191414;
+
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
 }
 aside {
     flex: 3;
@@ -24,3 +28,113 @@ aside {
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
 } 
+section{
+    background-color: #0f0f0f;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90vh;
+    /* height: 80vh; */
+    color: #d1d1d1;
+}
+.formLine {
+    display: flex;
+    justify-content: space-between; /* Distribui espaço uniformemente entre os conjuntos */
+    gap: 20px; /* Espaçamento entre os conjuntos de label/input */
+}
+
+.formLine > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Faz com que o label fique em cima do input */
+}
+
+label {
+    margin-bottom: 5px; /* Espaçamento entre o label e o input */
+    font-weight: bold; /* Opcional: para destacar o label */
+}
+
+input {
+    background-color: #191414;
+    color: #d1d1d1;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2cap;
+    margin-bottom: 2vh;
+}
+p{
+    font-weight: lighter;
+    margin-bottom: 2vh;
+}
+
+button{
+    width: 100%;
+    height: 6vh;
+    font-weight: bold;
+    background-color: #ffc332;
+    border: none;
+}
+
+@media (orientation: portrait) {
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0; /* Remove margem extra que pode causar problemas */
+        background-image: url('https://miro.medium.com/v2/resize:fit:4800/format:webp/1*2_rsOd_N_Q0hZvXOyXwMWQ.jpeg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        background: none;
+        flex: 1;
+        height: 100vh;
+        position: relative; 
+    }
+
+    aside {
+        flex: 0;
+    }
+
+    section {
+        width: 80vw;
+        max-width: 100%; /* Ajusta a largura para não exceder a viewport */
+        margin: 0 auto;
+        margin-top: 25vh;
+        background-color: #0f0f0f;
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative; /* Garante que a section tenha uma posição relativa para o conteúdo */
+        z-index: 1; /* Garante que o conteúdo esteja acima da imagem de fundo */
+    }
+    p{
+        text-align: center;
+    }
+    .formLine {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .formLine > div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
