@@ -61,3 +61,15 @@ section.tag{
     border-radius: 15px;
     box-shadow: 5px 10px rgba(1, 1, 1, 0.4);
 }
+#filterInput{
+    width: 50vw;
+    height: 3vh;
+    border-radius: 15px;
+    border: 2px solid #00a8aa;
+}
+#filterInput:focus{
+    outline: none;
+}
+#filterInput::placeholder{
+    font-weight: bold;
+}
