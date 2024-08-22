@@ -22,114 +22,451 @@
             <a href="#formularios" id="link-formularios">Formulários</a>
             <a href="#tabelas" id="link-tabelas">Tabelas</a>
             <a href="#semanticas" id="link-semanticas">Semânticas</a>
+            <a href="#metadados" id="link-metadados">Metadados</a>
         </nav>
     </header>
     <main>
         <input type="text" id="filterInput" placeholder="Search...">
         <div class="main">
+            <!-- Estruturais -->
             <section class="type" id="Estruturais">
                 <h2>Estruturais</h2>
                 <section class="tag">
                     <h3>html</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;html&gt;</code> representa a raiz do documento HTML. Todos os outros elementos HTML devem estar dentro desta tag.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;html lang="pt-br"&gt;...&lt;/html&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>head</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;head&gt;</code> contém metadados sobre o documento, como o título, links para scripts e folhas de estilo, entre outros.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Título do Documento&lt;/title&gt;
+&lt;/head&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>body</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;body&gt;</code> contém todo o conteúdo visível do documento, como textos, imagens, vídeos, etc.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;body&gt;
+    &lt;h1&gt;Título&lt;/h1&gt;
+    &lt;p&gt;Conteúdo do site.&lt;/p&gt;
+&lt;/body&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>div</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;div&gt;</code> é um contêiner genérico usado para agrupar elementos com o objetivo de aplicar estilos ou scripts em grupo.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;div&gt;
+    &lt;p&gt;Este é um parágrafo dentro de uma div.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <p><strong>Nota:</strong> Use <code>&lt;div&gt;</code> apenas quando não houver uma tag semântica mais apropriada.</p>
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>span</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;span&gt;</code> é usada para agrupar partes de texto ou outros elementos inline para fins de estilo ou manipulação com JavaScript.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;p&gt;Este é um texto com &lt;span style="color: red;"&gt;destaque&lt;/span&gt; em vermelho.&lt;/p&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
             </section>
+
+            <!-- Textuais -->
             <section class="type" id="Textuais">
                 <h2>Textuais</h2>
                 <section class="tag">
                     <h3>h1 - h6</h3>
+                    <div class="descricao">
+                        <p>As tags <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> representam cabeçalhos, com <code>&lt;h1&gt;</code> sendo o mais importante e <code>&lt;h6&gt;</code> o menos.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;h1&gt;Cabeçalho 1&lt;/h1&gt;
+&lt;h2&gt;Cabeçalho 2&lt;/h2&gt;
+&lt;h3&gt;Cabeçalho 3&lt;/h3&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>p</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;p&gt;</code> é usada para definir parágrafos de texto.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;p&gt;Este é um parágrafo de texto.&lt;/p&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>a</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;a&gt;</code> define um hyperlink, que é usado para navegar para outra página ou um local dentro da mesma página.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;a href="https://www.example.com"&gt;Clique aqui&lt;/a&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>strong</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;strong&gt;</code> é usada para dar ênfase forte ao texto, geralmente exibido em negrito.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;p&gt;Este é um &lt;strong&gt;texto importante&lt;/strong&gt;!&lt;/p&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>em</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;em&gt;</code> é usada para dar ênfase ao texto, geralmente exibido em itálico.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;p&gt;Este é um texto &lt;em&gt;enfatizado&lt;/em&gt;.&lt;/p&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>  
             </section>
+
+            <!-- Mídia -->
             <section class="type" id="midia">
                 <h2>Mídia</h2>
                 <section class="tag">
                     <h3>img</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;img&gt;</code> é usada para incorporar imagens no documento.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <p><strong>Nota:</strong> O atributo <code>alt</code> é importante para acessibilidade e SEO.</p>
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>audio</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;audio&gt;</code> é usada para incorporar áudio no documento.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+    Seu navegador não suporta o elemento de áudio.
+&lt;/audio&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>video</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;video&gt;</code> é usada para incorporar vídeos no documento.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;video width="320" height="240" controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+    Seu navegador não suporta o elemento de vídeo.
+&lt;/video&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
+                </section>
+                <section class="tag">
+                    <h3>iframe</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;iframe&gt;</code> é usada para incorporar um documento HTML dentro de outro documento HTML.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;iframe src="https://www.example.com" width="600" height="400"&gt;&lt;/iframe&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
             </section>
+
+            <!-- Formulários -->
             <section class="type" id="formularios">
                 <h2>Formulários</h2>
                 <section class="tag">
                     <h3>form</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;form&gt;</code> é usada para criar um formulário de entrada de dados.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;form action="/submit" method="post"&gt;
+    &lt;!-- Campos do formulário --&gt;
+&lt;/form&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <p><strong>Nota:</strong> O atributo <code>action</code> define para onde os dados do formulário serão enviados, e <code>method</code> define o método de envio (GET ou POST).</p>
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>input</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;input&gt;</code> é usada para criar campos de entrada em um formulário.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;input type="text" name="username" placeholder="Digite seu nome"&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>textarea</h3>
-                </section>  
+                    <div class="descricao">
+                        <p>A tag <code>&lt;textarea&gt;</code> é usada para criar uma área de texto multilinha em um formulário.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;textarea name="message" rows="4" cols="50"&gt;Digite sua mensagem aqui...&lt;/textarea&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
+                </section>
                 <section class="tag">
                     <h3>button</h3>
-                </section>
-                <section class="tag">
-                    <h3>select</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;button&gt;</code> é usada para criar um botão que pode ser clicado.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;button type="submit"&gt;Enviar&lt;/button&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
             </section>
+
+            <!-- Tabelas -->
             <section class="type" id="tabelas">
                 <h2>Tabelas</h2>
                 <section class="tag">
                     <h3>table</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;table&gt;</code> é usada para criar uma tabela.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Cabeçalho 1&lt;/th&gt;
+        &lt;th&gt;Cabeçalho 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celula 1&lt;/td&gt;
+        &lt;td&gt;Celula 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>tr</h3>
-                </section>
-                <section class="tag">
-                    <h3>td</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;tr&gt;</code> define uma linha em uma tabela.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;tr&gt;
+    &lt;td&gt;Celula&lt;/td&gt;
+    &lt;td&gt;Celula&lt;/td&gt;
+&lt;/tr&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>th</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;th&gt;</code> define uma célula de cabeçalho em uma tabela.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;th&gt;Cabeçalho&lt;/th&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
+                </section>
+                <section class="tag">
+                    <h3>td</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;td&gt;</code> define uma célula de dados em uma tabela.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;td&gt;Dados&lt;/td&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
             </section>
+
+            <!-- Semânticas -->
             <section class="type" id="semanticas">
                 <h2>Semânticas</h2>
                 <section class="tag">
                     <h3>header</h3>
-                </section>
-                <section class="tag">
-                    <h3>footer</h3>
-                </section>
-                <section class="tag">
-                    <h3>article</h3>
-                </section>
-                <section class="tag">
-                    <h3>section</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;header&gt;</code> define um cabeçalho para o documento ou uma seção.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;header&gt;
+    &lt;h1&gt;Cabeçalho da Página&lt;/h1&gt;
+&lt;/header&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
                 <section class="tag">
                     <h3>nav</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;nav&gt;</code> define um bloco de navegação para links de navegação.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;nav&gt;
+    &lt;a href="#home"&gt;Home&lt;/a&gt;
+    &lt;a href="#about"&gt;Sobre&lt;/a&gt;
+&lt;/nav&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
+                </section>
+                <section class="tag">
+                    <h3>article</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;article&gt;</code> define um conteúdo independente dentro de um documento, como um artigo de um blog.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;article&gt;
+    &lt;h2&gt;Título do Artigo&lt;/h2&gt;
+    &lt;p&gt;Conteúdo do artigo...&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
+                </section>
+                <section class="tag">
+                    <h3>section</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;section&gt;</code> define uma seção genérica no documento.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;section&gt;
+    &lt;h2&gt;Título da Seção&lt;/h2&gt;
+    &lt;p&gt;Conteúdo da seção...&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
+                </section>
+                <section class="tag">
+                    <h3>footer</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;footer&gt;</code> define um rodapé para o documento ou uma seção.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;footer&gt;
+    &lt;p&gt;© 2024 Seu Nome&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
                 </section>
             </section>
-        </div>
-    </main>
-    <!-- <script src="./scripts/link.js"></script> -->
-    <script src="./scripts/search.js"></script>
-</body>
 
+            <!-- Metadados -->
+            <section class="type" id="metadados">
+                <h2>Metadados</h2>
+                <section class="tag">
+                    <h3>meta</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;meta&gt;</code> fornece metadados sobre o documento, como a descrição, palavras-chave e autor.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;meta charset="UTF-8"&gt;</code></pre>
+                        <pre><code>&lt;meta name="description" content="Descrição do site"&gt;</code></pre>
+                        <pre><code>&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <p><strong>Nota:</strong> A tag <code>meta</code> deve estar dentro da tag <code>&lt;head&gt;</code>.</p>
+                    </div>
+                </section>
+                <section class="tag">
+                    <h3>title</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;title&gt;</code> define o título do documento, que aparece na aba do navegador.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;title&gt;Título da Página&lt;/title&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
+                </section>
+                <section class="tag">
+                    <h3>link</h3>
+                    <div class="descricao">
+                        <p>A tag <code>&lt;link&gt;</code> é usada para vincular o documento a um arquivo externo, como uma folha de estilo.</p>
+                    </div>
+                    <div class="exemplo">
+                        <pre><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+                    </div>
+                    <div class="nota">
+                        <!-- Notas não são necessárias para esta tag -->
+                    </div>
+                </section>
+            </section>
+        </main>
+    </body>
 </html>

@@ -73,3 +73,7 @@ section.tag{
 #filterInput::placeholder{
     font-weight: bold;
 }
+
+div.descricao,div.exemploCode,div.exemplo,div.nota{
+    margin-top: 2vh;
+}

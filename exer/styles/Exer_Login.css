@@ -42,6 +42,9 @@ form input{
     border-bottom: 3px solid #929292;
     margin-bottom: 8%;
 }
+form input:focus{
+    outline: none;
+}
 form input::placeholder{
     font-size: 150%;
     margin-left: 15%;
