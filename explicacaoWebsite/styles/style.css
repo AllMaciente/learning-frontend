@@ -62,6 +62,7 @@ section.tag{
     box-shadow: 5px 10px rgba(1, 1, 1, 0.4);
 }
 #filterInput{
+    /* margin-top: 15vh; */
     width: 50vw;
     height: 3vh;
     border-radius: 15px;
