@@ -77,3 +77,15 @@ section.tag{
 div.descricao,div.exemploCode,div.exemplo,div.nota{
     margin-top: 2vh;
 }
+
+div.exemplo{
+    margin-left: 3vw;
+    border-left: 3px solid #00a8aa;
+    padding: 1vh 0 1vh 1.5vw;
+}
+div.exemplo h4{
+    text-transform: uppercase;
+    font-size: 2vh;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
